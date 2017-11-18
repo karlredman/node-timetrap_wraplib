@@ -136,19 +136,19 @@ Timetrap.prototype.registerCommandTypes = function(){
             override: false,
             get command(){return this._command[0]}
         },
-        resume:{
-            description: "resume command",
-            _command: ["resume", "r"],
-            args: [
-                ["-a", "--at"],
-                ["-i", "--id"]
-            ],
-            required: [],
-            allow_sheet: false,
-            special: true,
-            override: false,
-            get command(){return this._command[0]}
-        },
+        // resume:{
+        //     description: "resume command",
+        //     _command: ["resume", "r"],
+        //     args: [
+        //         ["-a", "--at"],
+        //         ["-i", "--id"]
+        //     ],
+        //     required: [],
+        //     allow_sheet: false,
+        //     special: true,
+        //     override: false,
+        //     get command(){return this._command[0]}
+        // },
         edit:{
             description: "edit command",
             _command: ["edit", "e"],
@@ -252,17 +252,17 @@ Timetrap.prototype.registerCommandTypes = function(){
             override: false,
             get command(){return this._command[0]}
         },
-        kill:{
-            description: "kill command",
-            _command: ["kill", "k"],
-            //TODO: handle delicately -deletes either id or timesheet
-            args: [["--id", "-i"]],
-            required: [],
-            allow_sheet: false,     //could be true but we'll make a special exception in code
-            special: true,
-            override: false,
-            get command(){return this._command[0]}
-        },
+        // kill:{
+        //     description: "kill command",
+        //     _command: ["kill", "k"],
+        //     //TODO: handle delicately -deletes either id or timesheet
+        //     args: [["--id", "-i"]],
+        //     required: [],
+        //     allow_sheet: false,     //could be true but we'll make a special exception in code
+        //     special: true,
+        //     override: false,
+        //     get command(){return this._command[0]}
+        // },
         custom:{
             description: "custom command -not implemented",
             _command: [''],

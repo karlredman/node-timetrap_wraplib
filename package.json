@@ -1,0 +1,34 @@
+{
+  "name": "timetrap_wraplib",
+  "version": "0.2.0",
+  "description": "This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) command line ruby application. The library offers and api for synchronous and asynchronous timetrap system calls.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlredman/timetrap_wraplib.git"
+  },
+  "keywords": [
+    "node.js",
+    "timetrap",
+    "wrapper",
+    "library"
+  ],
+  "author": "Karl N. Redman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlredman/timetrap_wraplib/issues"
+  },
+  "homepage": "https://github.com/karlredman/timetrap_wraplib#readme",
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  }
+}

@@ -156,21 +156,21 @@ describe('Timetrap basic class definition', function() {
             //timetrap.callCommand({type:'CheckIn', timetrap_internal: true, sheet:'default', sync: false});
             timetrap.callCommand({type:'checkIn', sheet:'default', content:"testing checkin", sync: false});
         });
-        // test.only('callcommand() options coverage [branch] (async) (live)', (done) => {
-        //     timetrap.on(timetrap.emit_types.command_complete.name+"-timetrap_internal", (emit_obj) => {
-        //         expect(emit_obj).toEqual(expect.any(Object));
-        //         expect(emit_obj).toMatchObject({
-        //             description: expect.any(String),
-        //             name: expect.any(String),
-        //             data: expect.anything(),
-        //             owner: expect.any(String)
-        //         });
-        //     });
-        //     done();
-        //     // TODO: possibly a problem with this
-        //     timetrap.callCommand({type:'CheckIn', timetrap_internal: true, sheet:'default', sync: false});
-        //     //timetrap.callCommand({type:'checkIn', sheet:'default', content:"testing checkin"});
-        // });
+        test('callcommand() options coverage [branch] (async) (live)', (done) => {
+            timetrap.on(timetrap.emit_types.command_complete.name+"-timetrap_internal", (emit_obj) => {
+                expect(emit_obj).toEqual(expect.any(Object));
+                expect(emit_obj).toMatchObject({
+                    description: expect.any(String),
+                    name: expect.any(String),
+                    data: expect.anything(),
+                    owner: expect.any(String)
+                });
+            });
+            done();
+            // TODO: possibly a problem with this
+            timetrap.callCommand({type:'checkIn', timetrap_internal: true, sheet:'default', sync: false});
+            //timetrap.callCommand({type:'checkIn', sheet:'default', content:"testing checkin"});
+        });
         describe('dumpOutput debugging convenience utility', () => {
             // ??? I'm not sure why this doesn't help code coverage....
             test('execution path', (done) => {

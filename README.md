@@ -17,7 +17,7 @@ This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) c
 
 ## Requirements:
 * node.js v8.4+
-* running [Timetrap](https://github.com/samg/timetrap) installation with some data
+* a running [Timetrap](https://github.com/samg/timetrap) installation with some data
 
 ## Features
 
@@ -27,7 +27,6 @@ This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) c
 	* kill
 	* move
 	* archive
-
 
 ## Installation:
 

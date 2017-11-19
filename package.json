@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karlredman/timetrap_wraplib.git"
+    "url": "git+https://github.com/karlredman/node-timetrap_wraplib.git"
   },
   "keywords": [
     "node.js",
@@ -22,9 +22,9 @@
   "author": "Karl N. Redman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karlredman/timetrap_wraplib/issues"
+    "url": "https://github.com/karlredman/node-timetrap_wraplib/issues"
   },
-  "homepage": "https://github.com/karlredman/timetrap_wraplib#readme",
+  "homepage": "https://github.com/karlredman/node-timetrap_wraplib#readme",
   "jest": {
     "verbose": true,
     "testPathIgnorePatterns": [

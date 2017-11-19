@@ -6,8 +6,6 @@ Author: [Karl N. Redman](https://karlredman.github.io/)
 
 This library is a work in progress. More info soon.
 
-**Use at your own risk!!**
-
 ## Description:
 
 This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) command line ruby application. The library offers and api for synchronous and asynchronous timetrap system calls.
@@ -16,6 +14,7 @@ This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) c
 * See the project [Timetrap.example.js](https://github.com/karlredman/node-timetrap_wraplib/blob/master/examples/Timetrap.example.js) file for directory layout.
 
 ## Requirements:
+* Linux (currently)
 * node.js v8.4+
 * a running [Timetrap](https://github.com/samg/timetrap) installation with some data
 
@@ -36,7 +35,6 @@ This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) c
 	1. in `function main` specify the database file to watch
 		* ...if you want to run the database file monitoring functionality
 	2. uncomment the code you want to run
-		* **at your own risk**
 	3. run the example
 	```
 	node ./Timetrap.example.js

@@ -325,12 +325,6 @@ Timetrap.prototype.callCommand = function({type = '', owner = '',
         throw new Timetrap_Error("[CallCommand] no type argument");
     }
 
-    // console.log("got here|"
-    //     + type
-    //     + "|"
-    //     + owner
-    // );
-
     //  manage the target for internal commands
     let emit_target = this.emit_types.command_complete.name;
     if(timetrap_internal){
@@ -364,7 +358,7 @@ Timetrap.prototype.callCommand = function({type = '', owner = '',
         args = [this.command_types[data.type].command,
             this.command_types[data.type].required, data.content];
 
-        // TODO: derp flatten args -fix inconsistent data....
+        // TODO: derp flatten args -fix inconsistent data schema....
         args = [].concat.apply([], args);
     }
     else {
@@ -666,21 +660,4 @@ Timetrap.prototype.checkoutAllSheets = function({target = {}, data = {}} ={}){
     });
 }
 
-
-////////////////////////////////// TODO
-// Timetrap.prototype.fetchRunningInfo = function(running_list){
-// Timetrap.prototype.fakeTimer = function(command){
-// Timetrap.prototype.updateListTimes = function(){
-// Timetrap.prototype.fetch_list = function(){
-// Timetrap.prototype.fetch_tree = function(list){
-
 module.exports = {Timetrap, Timetrap_Error};
-
-// let timetrap = new Timetrap({});
-// timetrap.on('command_complete', (emit_obj) => {
-//     if(emit_obj.data.type === 'ids'){
-//         console.log("got here")
-//         console.log(emit_obj.data.stdoutData);
-//     }
-// });
-// timetrap.callCommand({type:'ids', sheet: 'Projects', owner: 'detailstable', sync: true});

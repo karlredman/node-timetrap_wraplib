@@ -1,6 +1,6 @@
 {
   "name": "timetrap_wraplib",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) command line ruby application. The library offers and api for synchronous and asynchronous timetrap system calls.",
   "main": "index.js",
   "directories": {

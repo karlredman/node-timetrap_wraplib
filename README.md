@@ -8,7 +8,7 @@ This library is a work in progress. More info soon.
 
 ## Description:
 
-This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) command line ruby application. The library offers and api for synchronous and asynchronous timetrap system calls.
+This is a wrapper library for the [Timetrap](https://github.com/samg/timetrap) command line ruby application. The library offers an api for synchronous and asynchronous timetrap system calls.
 
 * See the project [pindex.md](https://github.com/karlredman/node-timetrap_wraplib/blob/master/pindex.md) file for directory layout.
 * See the project [Timetrap.example.js](https://github.com/karlredman/node-timetrap_wraplib/blob/master/examples/Timetrap.example.js) file for directory layout.

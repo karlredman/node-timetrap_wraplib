@@ -1,5 +1,5 @@
 pipeline:
-  tests:
+  install:
     image: starefossen/ruby-node
     commands:
       - node -v
@@ -7,4 +7,14 @@ pipeline:
       - npm install
       - gem install timetrap
       - timetrap d
+      # - npm run test
+
+  testing:
+    image: starefossen/ruby-node
+    commands:
+      # - node -v
+      # - npm -v
+      # - npm install
+      # - gem install timetrap
+      # - timetrap d
       - npm run test

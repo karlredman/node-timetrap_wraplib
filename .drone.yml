@@ -5,8 +5,8 @@ pipeline:
       - node -v
       - npm -v
       - npm install
-      - gem install timetrap
-      - timetrap d
+      # - gem install timetrap
+      # - timetrap d
       # - npm run test
 
   testing:
@@ -15,6 +15,6 @@ pipeline:
       # - node -v
       # - npm -v
       # - npm install
-      # - gem install timetrap
-      # - timetrap d
+      - gem install timetrap
+      - timetrap d
       - npm run test

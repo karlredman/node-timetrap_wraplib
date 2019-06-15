@@ -7,6 +7,7 @@
     "example": "examples"
   },
   "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
     "test": "jest --verbose --detectOpenHandles"
   },
   "repository": {

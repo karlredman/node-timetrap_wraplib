@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,22 @@
     "url": "https://github.com/karlredman/node-timetrap_wraplib/issues"
   },
   "homepage": "https://github.com/karlredman/node-timetrap_wraplib#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/hoek": "^7",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "braces": ">=2.3.1",
+    "eslint": "^5.16.0",
+    "extend": ">=3.0.2",
+    "jest": "^24.8.0",
+    "lodash": ">=4.17.11",
+    "marked": ">=0.3.18",
+    "randomatic": ">=3.0.0",
+    "regenerator-runtime": "^0.13.2",
+    "sshpk": ">=1.13.2"
+  },
   "jest": {
     "verbose": true,
     "testPathIgnorePatterns": [

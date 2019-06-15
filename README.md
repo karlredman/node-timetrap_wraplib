@@ -1,5 +1,5 @@
 [![Build Status](https://drone-github.parasynthetic.dev/api/badges/karlredman/node-timetrap_wraplib/status.svg)](https://drone-github.parasynthetic.dev/karlredman/node-timetrap_wraplib)
-[![npm version](https://img.shields.io/npm/v/node-timetrap_wraplib.svg)](https://www.npmjs.com/package/node-timetrap_wraplib)
+[![npm version](https://img.shields.io/npm/v/timetrap_wraplib.svg)](https://www.npmjs.com/package/timetrap_wraplib)
 [![issues](https://img.shields.io/github/issues/karlredman/node-timetrap_wraplib.svg)](https://github.com/karlredman/node-timetrap_wraplib/issues)
 [![license](https://img.shields.io/github/license/karlredman/node-timetrap_wraplib.svg)](https://github.com/karlredman/node-timetrap_wraplib/blob/master/LICENSE)
 

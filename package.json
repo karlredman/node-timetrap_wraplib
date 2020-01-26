@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/karlredman/node-timetrap_wraplib#readme",
   "dependencies": {
+    "braces": ">=2.3.1",
     "set-value": ">=3.0.1"
   },
   "devDependencies": {

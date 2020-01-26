@@ -14,6 +14,9 @@ coverage/*
 # Development
 tags
 session.vim
+GPATH
+GRTAGS
+GTAGS
 
 # Compiled source #
 ###################

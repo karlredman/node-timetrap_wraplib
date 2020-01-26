@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/karlredman/node-timetrap_wraplib#readme",
   "dependencies": {
-    "set-value": ">=3.0.1"
+    "set-value": ">=2.0.1"
   },
   "devDependencies": {
     "@hapi/hoek": "^7",

@@ -39,6 +39,7 @@
     "lodash": ">=4.17.11",
     "marked": ">=0.3.18",
     "randomatic": ">=3.0.0",
+    "set-value": ">=3.0.1",
     "regenerator-runtime": "^0.13.2",
     "sshpk": ">=1.13.2"
   },

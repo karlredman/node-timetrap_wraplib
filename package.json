@@ -26,7 +26,9 @@
     "url": "https://github.com/karlredman/node-timetrap_wraplib/issues"
   },
   "homepage": "https://github.com/karlredman/node-timetrap_wraplib#readme",
-  "dependencies": {},
+  "dependencies": {
+    "set-value": ">=3.0.1"
+  },
   "devDependencies": {
     "@hapi/hoek": "^7",
     "babel-cli": "^6.26.0",
@@ -39,7 +41,6 @@
     "lodash": ">=4.17.11",
     "marked": ">=0.3.18",
     "randomatic": ">=3.0.0",
-    "set-value": ">=3.0.1",
     "regenerator-runtime": "^0.13.2",
     "sshpk": ">=1.13.2"
   },
